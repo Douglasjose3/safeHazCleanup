@@ -1,15 +1,15 @@
-
+import MyNavBar from "../components/MyNavBar/MyNavBar";
+import MyCarousel from "../components/MyCarousel/MyCarousel";
+import Sobre from "../components/Sobre/Sobre";
 import Cards from "../components/Cards/Cards";
 import Footer from "../components/Footer/Footer";
-import MyCarousel from "../components/MyCarousel/MyCarousel";
-import MyNavBar from "../components/MyNavBar/MyNavBar";
 
 function Home() {
     return (
         <>
             <MyNavBar />
             <MyCarousel />
-            
+            <Sobre />
             <Cards />
             <Footer />
         </>

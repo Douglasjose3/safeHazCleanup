@@ -1,0 +1,15 @@
+.imgAbout {
+    width: 400px;
+    margin-top: 80px;
+}
+
+.imgAboutDiv {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .imgAbout {
+        display: none;
+    }
+}
