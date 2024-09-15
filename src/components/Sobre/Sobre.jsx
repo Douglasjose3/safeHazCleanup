@@ -1,5 +1,5 @@
-import { Container, Row, Col } from "react-bootstrap";
-import './about.css';
+import { Col, Container, Row } from 'react-bootstrap';
+import './sobre.css';
 
 function Sobre() {
     return (
@@ -17,8 +17,6 @@ function Sobre() {
                     </p>
                 </Col>
             </Row>
-            <div className="mt-5">
-            </div>
         </Container>
     )
 }
