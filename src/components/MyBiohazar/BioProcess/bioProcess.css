@@ -1,0 +1,5 @@
+@media screen and (max-width: 579px) {
+    .processItem {
+        display: block;
+    }
+}

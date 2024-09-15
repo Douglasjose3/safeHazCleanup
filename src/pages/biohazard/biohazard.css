@@ -1,0 +1,41 @@
+.bioAbre {
+    position: relative;
+}
+
+.bioTexto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #fc3f007e;
+    color: #ffffff;
+    border: 4px solid #ffffff;
+    border-radius: 16px;
+    padding: 60px 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 40pt;
+}
+
+.bioContent {
+    text-align: center;
+}
+
+.bioParagraph {
+    background-color: rgb(227, 227, 227);
+}
+
+@media screen and (max-width: 576px) {
+    .bioImg {
+        width: 100vh;
+        height: auto;
+    }
+
+    .bioTexto {
+        padding: 30px 30px;
+        font-size: 25pt;
+    }
+}

@@ -1,0 +1,39 @@
+.boxCarousel {
+    background-color: rgba(146, 146, 146, 0.729);
+    border: 3px solid white;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.titleCarousel {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.paragraphCarousel {
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navSpan {
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.buttonCarousel {
+    background-color: #fc3e00 !important;
+    border: none !important;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 576px) {
+    .carouselImg {
+        width: 100vh;
+        height: auto;
+    }
+}

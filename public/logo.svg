@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1280 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.591177,0,0,0.591177,-26.0399,116.885)">
+        <g transform="matrix(1,0,0,1,-2.47253,-824.272)">
+            <path d="M324.316,1181.49C346.43,1099.37 408.05,1048.9 494.803,1047.21" style="fill:none;stroke:white;stroke-width:47.07px;"/>
+            <g transform="matrix(0.587959,-1.16862,0.920876,0.463313,-995.396,1196.18)">
+                <path d="M566.097,1009.13C566.097,1009.13 544.87,993.765 499.947,992.237C467.467,991.133 448.844,999.325 448.844,999.325L472.692,1130.65L532.192,1133.61L566.097,1009.13Z" style="fill:white;stroke:white;stroke-width:39.97px;"/>
+            </g>
+        </g>
+        <g transform="matrix(-0.504376,-0.863484,0.863484,-0.504376,-313.964,1443.52)">
+            <path d="M324.316,1181.49C346.43,1099.37 408.05,1048.9 494.803,1047.21" style="fill:none;stroke:white;stroke-width:47.07px;"/>
+            <g transform="matrix(0.587959,-1.16862,0.920876,0.463313,-995.396,1196.18)">
+                <path d="M566.097,1009.13C566.097,1009.13 544.87,993.765 499.947,992.237C467.467,991.133 448.844,999.325 448.844,999.325L472.692,1130.65L532.192,1133.61L566.097,1009.13Z" style="fill:white;stroke:white;stroke-width:39.97px;"/>
+            </g>
+        </g>
+        <g transform="matrix(-0.514398,0.857552,-0.857552,-0.514398,3014.85,599.845)">
+            <path d="M324.316,1181.49C346.43,1099.37 408.05,1048.9 494.803,1047.21" style="fill:none;stroke:white;stroke-width:47.07px;"/>
+            <g transform="matrix(0.587959,-1.16862,0.920876,0.463313,-995.396,1196.18)">
+                <path d="M566.097,1009.13C566.097,1009.13 544.87,993.765 499.947,992.237C467.467,991.133 448.844,999.325 448.844,999.325L472.692,1130.65L532.192,1133.61L566.097,1009.13Z" style="fill:white;stroke:white;stroke-width:39.97px;"/>
+            </g>
+        </g>
+        <g transform="matrix(6.92043,0,0,7.08095,-5444.35,-5187.89)">
+            <text x="951px" y="796.786px" style="font-family:'Rockwell-Regular', 'Rockwell', serif;font-size:24px;">cleanup</text>
+        </g>
+        <g transform="matrix(7.29238,0,0,7.29238,-3032.14,-4679.42)">
+            <text x="471px" y="704px" style="font-family:'Rockwell-Bold', 'Rockwell', serif;font-weight:700;font-size:24px;fill:white;">Saf<tspan x="508.441px " y="704px ">e</tspan>Haz</text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title {
+    margin-top: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: end;
+    line-height: 40px;
+}
+
+.paragraph {
+  margin-top: 50px;
+  margin-left: 20px;
+  color: rgb(44, 44, 44);
+}
+
+.paragraph::first-letter {
+  font-size: 4rem;
+  line-height: 1;
+  initial-letter: 3;
+  margin-right: 12px;
+}
+
+.safeHaz {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #fc3e00;
+}
+
+.cardBold {
+  font-weight: 900 !important;
+}
+
+.bold {
+  font-weight: 900 !important;
+}
+
+.cardBg {
+  background-color: rgb(227, 227, 227);
+  padding-bottom: 25px;
+  border-radius: 32px;
+}
+
+@media screen and (max-width: 579px) {
+  body {
+    padding: 20px;
+  }
+
+  .title {
+      text-align: center;
+      margin-bottom: 0;
+  }
+
+  .paragraph {
+    margin-top: 20px;
+  }
+
+  .paragraph::first-letter {
+    font-size: 3rem;
+    line-height: 1;
+    initial-letter: 2;
+    margin-right: 8px;
+    font-weight: 900;
+  }
+}

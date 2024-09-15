@@ -1,0 +1,52 @@
+.footerBg {
+    background-color: #fc3e00;
+    padding: 20px 0 40px 0;
+}
+
+.footerContent {
+    align-items: center;
+}
+
+.footerEmail {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footerCall {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fc3e00;
+    background-color: #ffffff;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 900;
+    margin-left: 70px;
+}
+
+.footerP {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .imgContent {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .emailContent {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .callContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
