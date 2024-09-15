@@ -1,4 +1,4 @@
-import About from "../components/about/About";
+
 import Cards from "../components/Cards/Cards";
 import Footer from "../components/Footer/Footer";
 import MyCarousel from "../components/MyCarousel/MyCarousel";
@@ -9,7 +9,7 @@ function Home() {
         <>
             <MyNavBar />
             <MyCarousel />
-            <About />
+            
             <Cards />
             <Footer />
         </>
