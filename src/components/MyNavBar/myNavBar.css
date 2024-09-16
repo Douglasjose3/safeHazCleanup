@@ -29,7 +29,7 @@
     margin-right: 10px;
 }
 
-@media screen and (max-width: 579px) {
+@media screen and (min-width: 360px) {
     .callContent {
         display: flex;
         justify-content: center;

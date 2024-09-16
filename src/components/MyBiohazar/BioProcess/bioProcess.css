@@ -1,4 +1,4 @@
-@media screen and (max-width: 579px) {
+@media screen and (min-width: 360px) {
     .processItem {
         display: block;
     }

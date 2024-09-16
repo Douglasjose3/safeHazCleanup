@@ -10,7 +10,7 @@ function Home() {
             <MyNavBar />
             <MyCarousel />
             <Sobre />
-            <Cards />
+            <Cards/>
             <Footer />
         </>
     )
