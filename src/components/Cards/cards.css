@@ -35,3 +35,9 @@
     display: block;
     align-items: center;
 }
+
+@media screen and (max-width: 576px) {
+    .cardsH1 {
+        text-align: center;
+    }
+}

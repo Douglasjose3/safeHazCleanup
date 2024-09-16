@@ -35,4 +35,12 @@
         justify-content: center;
     }
 
+    .navImg {
+        width: 250px;
+    }
+
+    .navCall {
+        display: none;
+    }
+
 }

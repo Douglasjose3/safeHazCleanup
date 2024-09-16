@@ -38,7 +38,7 @@ function MyCarousel() {
             </Carousel.Item>
 
             <Carousel.Item>
-                <img className="carouselImg" src="./blood.jpg" alt="Blood" />
+                <img className="carouselImg" src="./blood.png" alt="Blood" />
                 <Carousel.Caption>
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Blood Cleanup</h3>
