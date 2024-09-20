@@ -47,7 +47,7 @@ function MyNavBar() {
                 <Navbar.Toggle aria-controls={btnToggle} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto navMenu">
-                        <Nav.Link className='bold' href="#about">About</Nav.Link>
+                        <Nav.Link className='bold' href="/">About</Nav.Link>
                         <NavDropdown className='bold' title="Cleanup Services" id="basic-nav-dropdown">
                             <NavDropdown.Item href="biohazard">Biohazard Cleanup</NavDropdown.Item>
                             <NavDropdown.Item href="crimeScene">Crime Scene & Trauma Cleanup</NavDropdown.Item>

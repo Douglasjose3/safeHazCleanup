@@ -9,7 +9,7 @@
     border: 3px solid white;
     padding: 16px;
     margin-bottom: 20px;
-    width: 500px;
+    width: 600px;
     border-radius: 16px;
 }
 
@@ -18,6 +18,7 @@
     font-weight: 900;
     font-style: normal;
     padding-bottom: 10px;
+    font-size: 60px;
 }
 
 .paragraphCarousel {
@@ -54,5 +55,9 @@
     .carouselImg {
         width: 100vh;
         height: auto;
+    }
+
+    .titleCarousel {
+        font-size: 30px;
     }
 }
