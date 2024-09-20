@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from "react-bootstrap";
 
-function BioCompany() {
+function Company() {
     return (
         <Container className="cardBg">
             <Row>
@@ -56,4 +56,4 @@ function BioCompany() {
     )
 }
 
-export default BioCompany;
+export default Company;

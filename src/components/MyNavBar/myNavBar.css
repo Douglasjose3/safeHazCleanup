@@ -2,6 +2,24 @@
     background-color: #ffffffa5;
 }
 
+.navBarScroll {
+    background-color: var(--primary-color);
+    height: 137.98px;
+}
+
+.bgButtonHover {
+    background-color: var(--apoioColor);
+    color: var(--primary-color);
+    margin-left: 25px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+.collapsed {
+    background-color: var(--primary-color);
+}
+
 .navBrand {
     font-family: "Lato", sans-serif;
     font-weight: 900;
@@ -10,10 +28,10 @@
 }
 
 .navCall {
+    background-color: var(--primary-color);
+    color: var(--apoioColor);
     margin-left: 25px;
     padding: 10px 15px;
-    color: #ffffff;
-    background-color: #fc3e00;
     border-radius: 8px;
     font-weight: 900;
 }
@@ -25,11 +43,18 @@
     padding-bottom: 10px;
 }
 
+.imgLogo {
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .call {
     margin-right: 10px;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 576px) {
     .callContent {
         display: flex;
         justify-content: center;
@@ -39,8 +64,21 @@
         width: 250px;
     }
 
+    .imgLogo {
+        width: 250px;
+        padding: 0;
+        margin: 0;
+    }
+
     .navCall {
         display: none;
     }
 
+    .bgButtonHover {
+        display: none;
+    }
+
+    .btnToggleHover {
+        background-color: var(--apoioColor);
+    }
 }

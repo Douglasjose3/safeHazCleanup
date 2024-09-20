@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 576px) {
     .cardsH1 {
         text-align: center;
     }

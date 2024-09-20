@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card, CardBody, CardText } from "react-bootstrap"
 
-function BioServices() {
+function Services() {
     return (
         <Container className="cardBg ps-5 pe-5">
             <h1 className="title text-center mb-4 pt-5">Our biohazard services include</h1>
@@ -73,4 +73,4 @@ function BioServices() {
     )
 }
 
-export default BioServices;
+export default Services;

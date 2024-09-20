@@ -3,13 +3,13 @@ import './sobre.css';
 
 function Sobre() {
     return (
-        <Container id="/">
+        <Container id="about">
             <div className="imgAboutDiv">
                 <img className='imgAbout' src="/logoOrange.png" alt="Logo" />
             </div>
             <Row>
                 <Col lg={4}>
-                    <h1 className="title">Especialistas em Limpeza e Remediação de Riscos</h1>
+                    <h1 className="title">Specialists in Cleaning and Risk Remediation</h1>
                 </Col>
                 <Col lg={6}>
                     <p className="paragraph">

@@ -8,7 +8,7 @@ function MyCarousel() {
         <Carousel className='slides' interval={3000}>
             <Carousel.Item>
                 <img className="carouselImg" src="/biohazard.png" alt="Biohazard" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Biohazard Cleanup</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -18,7 +18,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="/crime.png" alt="Crime Scene" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Crime Scene And Trauma Cleanup</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -29,7 +29,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="/decomp.png" alt="Decomposition" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Decomposition Odor Removal</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -39,7 +39,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="./blood.png" alt="Blood" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Blood Cleanup</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -49,7 +49,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="/fire.png" alt="Fire in the house" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Fire Damage Restoration</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -59,7 +59,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="/hoarder.png" alt="Hoarder" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Hoarder Cleanup Services</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -69,7 +69,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="/mold.png" alt="Mold" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Mold Remediation</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -79,7 +79,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="/smoke.png" alt="Smoke" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Smoke Remediation</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>
@@ -89,7 +89,7 @@ function MyCarousel() {
 
             <Carousel.Item>
                 <img className="carouselImg" src="/water.png" alt="Water damage" />
-                <Carousel.Caption>
+                <Carousel.Caption className="carouselCaption">
                     <div className="boxCarousel">
                         <h3 className='titleCarousel'>Water Damage Restoration</h3>
                         <Button className='buttonCarousel'>Call Now <span className='navSpan'>(510) 610-9964</span></Button>

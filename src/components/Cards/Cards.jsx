@@ -24,11 +24,11 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Biohazard Cleanup</Card.Title>
                                 <Card.Text>
-                                    Limpeza e descontaminação de locais que contêm materiais perigosos, como sangue, fluidos corporais, resíduos químicos ou biológicos. Serviço realizado por profissionais treinados, geralmente após acidentes, crimes ou exposições a patógenos.
+                                    Cleaning and decontamination of locations that contain hazardous materials, such as blood, bodily fluids, chemical, or biological waste. This service is carried out by trained professionals, typically after accidents, crimes, or exposure to pathogens.
                                 </Card.Text>
 
                                 {/* Colocar função no botão */}
-                                <Button to={"#biohazard"} className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button to={"#biohazard"} className='cardsButton' variant="primary">Learn more</Button>
 
                             </Card.Body>
                         </Card>
@@ -40,9 +40,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Crime Scene And Trauma Cleanup</Card.Title>
                                 <Card.Text>
-                                    É o processo de limpeza e descontaminação de locais onde ocorreram crimes, acidentes graves ou traumas. Profissionais removem sangue, fluidos corporais e outros resíduos perigosos, garantindo a segurança e saúde do ambiente após o incidente.
+                                    It is the process of cleaning and decontaminating locations where crimes, serious accidents, or trauma have occurred. Professionals remove blood, bodily fluids, and other hazardous waste, ensuring the safety and health of the environment after the incident.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -53,9 +53,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Decomposition Odor Removal</Card.Title>
                                 <Card.Text>
-                                    É o processo de eliminar odores fortes causados pela decomposição de corpos. Técnicos especializados utilizam técnicas e produtos para neutralizar o cheiro, desinfetar o ambiente e restaurar a qualidade do ar, garantindo um local seguro e habitável.
+                                    It is the process of eliminating strong odors caused by body decomposition. Specialized technicians use techniques and products to neutralize the smell, disinfect the area, and restore air quality, ensuring a safe and habitable environment.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -66,10 +66,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Blood Cleanup</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the cards content.
+                                    The process involves cleaning and disinfecting areas contaminated with blood after accidents, injuries, or crimes. Specialists use techniques and products to safely remove blood, stop the spread of pathogens, and restore the area to a safe condition.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -80,10 +79,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Fire Damage Restoration</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the cards content.
+                                    Is the process of cleaning and restoring properties affected by fire, smoke, and soot. Specialists remove debris, clean damaged areas, and eliminate smoke odors. They also repair structural damage, ensuring the space is safe and habitable again.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -94,10 +92,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Hoarding Cleanup</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the cards content.
+                                    Involves the meticulous removal of excessive clutter and items from a property due to hoarding behavior. Professionals handle the task with sensitivity and discretion, ensuring the proper disposal of items, addressing health hazards, and restoring the space to a safe, functional state.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -108,10 +105,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Mold Remediation</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the cards content.
+                                    Identifying and removing mold from a property. Experts assess contamination, clean surfaces and air with specialized tools, and apply treatments to prevent future mold. This ensures a safe, healthy environment by addressing current and potential issues.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -122,10 +118,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Smoke Remediation</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the cards content.
+                                    Removing smoke damage and odors from property. Professionals thoroughly clean and deodorize affected areas, treat surfaces and ventilation systems, and ensure all residues are addressed to restore a clean and healthy environment after a fire.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -136,10 +131,9 @@ function Cards() {
                             <Card.Body>
                                 <Card.Title className='cardsTitle'>Water Damage Restoration</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the cards content.
+                                    Involves assessing and repairing damage from water intrusion. Professionals remove standing water, dry and dehumidify areas, and repair or replace damaged materials to restore the property and prevent mold and structural issues.
                                 </Card.Text>
-                                <Button className='cardsButton' variant="primary">Go somewhere</Button>
+                                <Button className='cardsButton' variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
                     </Col>

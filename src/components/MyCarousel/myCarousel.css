@@ -1,8 +1,16 @@
+.carouselCaption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .boxCarousel {
-    background-color: rgba(146, 146, 146, 0.729);
+    background-color: var(--carouselBgTitle);
     border: 3px solid white;
     padding: 16px;
     margin-bottom: 20px;
+    width: 500px;
+    border-radius: 16px;
 }
 
 .titleCarousel {
@@ -26,9 +34,9 @@
 }
 
 .buttonCarousel {
-    background-color: #fc3e00 !important;
     border: none !important;
     padding-bottom: 40px;
+    background-color: var(--primary-color) !important;
 }
 
 .slides {
@@ -37,7 +45,12 @@
     align-items: center;
 }
 
-@media screen and (min-width: 360px) {
+.carouselImg {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 576px) {
     .carouselImg {
         width: 100vh;
         height: auto;
