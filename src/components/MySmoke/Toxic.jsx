@@ -1,19 +1,19 @@
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from "react-bootstrap";
 
-function Company() {
+function Toxic() {
     return (
         <Container className="cardBg">
             <Row>
                 <Col lg={3}>
-                    <h1 className="title">What to Look For in a <br />Biohazard Company!</h1>
+                    <h1 className="title">Toxic Chemicals After a Fire</h1>
                 </Col>
-                
+
                 <Col lg={2} className="mt-5">
                     <Card lg={1}>
                         <CardBody>
                             <CardTitle className="cardBold">Credentials</CardTitle>
                             <CardText>
-                                <span className="safeHaz">Safehaz Cleanup</span> is compliant with all local and federal safety standards. We adhere to a 28-point checklist that enforces both regulatory compliance and quality assurance.
+                                After a fire, lingering odors and discoloration often indicate the release of hazardous chemicals from common building materials and household items. These toxins pose significant health risks if not properly removed.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -22,9 +22,9 @@ function Company() {
                 <Col lg={2} className="mt-5">
                     <Card lg={1}>
                         <CardBody>
-                            <CardTitle className="cardBold">Compassion</CardTitle>
+                            <CardTitle className="cardBold">PVC (Polyvinyl Chloride) Risks</CardTitle>
                             <CardText>
-                                We know that our customers call us during times of crisis. That’s why our staff is trained to comfort grieving families and complete their work with the utmost discretion.
+                                PVC is found in many household products, such as flooring and plumbing. When burned, it releases harmful chemicals like hydrogen chloride and dioxin, which can cause respiratory issues and long-term health problems.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -33,9 +33,9 @@ function Company() {
                 <Col lg={2} className="mt-5">
                     <Card lg={1}>
                         <CardBody>
-                            <CardTitle className="cardBold">Training</CardTitle>
+                            <CardTitle className="cardBold">Dangers of Carbon Materials</CardTitle>
                             <CardText>
-                                Our technicians receive intensive training in OSHA and other regulatory standards, bloodborne pathogen, personal protective equipment (PPE), respiratory protection, hazardous communication, and heat-illness awareness compliance and training.
+                                Burning carbon-based building materials releases hazardous substances like ammonia, nitrogen oxide, and tar. These can cause severe health problems if not properly cleaned and restored.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -44,9 +44,9 @@ function Company() {
                 <Col lg={2} className="mt-5">
                     <Card lg={1}>
                         <CardBody>
-                            <CardTitle className="cardBold">Proof</CardTitle>
+                            <CardTitle className="cardBold">Carbon Monoxide Threat</CardTitle>
                             <CardText>
-                                Once cleanup is complete, each area affected by biohazards goes through rigorous ATP testing to ensure harmful pathogens are eradicated on a molecular level, guaranteeing hospital-level cleanliness.
+                                Carbon monoxide, an invisible and odorless gas, is released during fires and can be deadly if inhaled. Proper restoration and ventilation are critical to ensure safety after a fire.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -56,4 +56,4 @@ function Company() {
     )
 }
 
-export default Company;
+export default Toxic;

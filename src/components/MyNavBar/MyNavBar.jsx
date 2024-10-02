@@ -50,23 +50,26 @@ function MyNavBar() {
                         <Nav.Link className='bold' href="/">About</Nav.Link>
                         <NavDropdown className='bold' title="Cleanup Services" id="basic-nav-dropdown">
                             <NavDropdown.Item href="biohazard">Biohazard Cleanup</NavDropdown.Item>
+                            <NavDropdown.Item href="blood">Blood Cleanup</NavDropdown.Item>
                             <NavDropdown.Item href="crimeScene">Crime Scene & Trauma Cleanup</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Decomposition Odor Removal</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Blood Cleanup</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Fire Damage Restoration</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Hoarder Cleanup Services</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Mold Remediation</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Smoke Remediation</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Water Damage Restoration</NavDropdown.Item>
-                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="odor">Decomposition Odor Removal</NavDropdown.Item>
+                            <NavDropdown.Item href="fire">Fire Damage Restoration</NavDropdown.Item>
+                            <NavDropdown.Item href="hoarder">Hoarder Cleanup Services</NavDropdown.Item>
+                            <NavDropdown.Item href="mold">Mold Remediation</NavDropdown.Item>
+                            <NavDropdown.Item href="smoke">Smoke Remediation</NavDropdown.Item>
+                            <NavDropdown.Item href="death">Unattended Death Cleanup</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="#action/3.3">Smoke Remediation</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Water Damage Restoration</NavDropdown.Item> */}
+                            {/* <NavDropdown.Divider /> */}
                             {/* <NavDropdown.Item href="#action/3.4">
                                 Separated link
                             </NavDropdown.Item> */}
                         </NavDropdown>
+                        <Nav.Link className='bold' href="/">Electrical Services</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
-                <div className='callContent'>
-                    <h4 className={bgButton}><span className='call'>Call Now</span> (510) 610-9964</h4>
+                <div className=''>
+                    <h4 className={bgButton}><span className='TextRegular me-1'>Call Now</span> (510) 610-9964</h4>
                 </div>
             </Container>
         </Navbar>

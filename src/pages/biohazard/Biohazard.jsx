@@ -1,12 +1,12 @@
-import { Container, Row } from "react-bootstrap";
-import MyNavBar from "../../components/MyNavBar/MyNavBar";
-import Hire from "../../components/MyBiohazar/Hire/Hire";
-import Company from "../../components/MyBiohazar/Company/Company";
-import Remediation from "../../components/MyBiohazar/Remediation/Remediation";
-import Process from "../../components/MyBiohazar/Process/Process";
-import Importante from "../../components/MyBiohazar/Importante/Importante";
-import Services from "../../components/MyBiohazar/Servies/Services";
+import { Container } from "react-bootstrap";
 import Footer from "../../components/Footer/Footer";
+import Company from "../../components/MyBiohazar/Company/Company";
+import Hire from "../../components/Hire/Hire";
+import Importante from "../../components/MyBiohazar/Importante/Importante";
+import Process from "../../components/MyBiohazar/Process/Process";
+import Remediation from "../../components/MyBiohazar/Remediation/Remediation";
+import Services from "../../components/Servies/Services";
+import MyNavBar from "../../components/MyNavBar/MyNavBar";
 
 
 function Biohazard() {
@@ -18,7 +18,7 @@ function Biohazard() {
                 <h3 className="secaoTitle">Biohazard Cleanup</h3>
             </div>
             <Container>
-                <Row>
+
                     <div className="mt-5">
                         <Hire />
                     </div>
@@ -44,7 +44,6 @@ function Biohazard() {
                     </div>
 
 
-                </Row>
             </Container>
 
             <div className="mt-5">

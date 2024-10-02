@@ -7,7 +7,7 @@ function Footer() {
                 <div className='footerContent'>
                     <img className='footerImg' src="/logo.png" alt="Logo" />
                     <h3 className='footerEmail'>nomedoemmail@safehazcleanup.com</h3>
-                    <h4 className='footerCall'><span className='call'>Call Now</span> (510) 610-9964</h4>
+                    <h4 className='footerCall'><span className='textRegular me-2'>Call Now</span> (510) 610-9964</h4>
                 </div>
             </div>
             <div className="footerParagraph">

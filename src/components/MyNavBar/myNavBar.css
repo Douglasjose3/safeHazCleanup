@@ -16,6 +16,15 @@
     font-weight: 900;
 }
 
+.bgButtonHover:hover {
+    background-color: var(--primary-color-hover);
+    color: var(--primary-color);
+    margin-left: 25px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
 .collapsed {
     background-color: var(--primary-color);
 }
@@ -30,6 +39,15 @@
 .navCall {
     background-color: var(--primary-color);
     color: var(--apoioColor);
+    margin-left: 25px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+.navCall:hover {
+    background-color: var(--primary-color-hover);
+    color: var(--primary-color);
     margin-left: 25px;
     padding: 10px 15px;
     border-radius: 8px;

@@ -6,7 +6,7 @@
 
 .boxCarousel {
     background-color: var(--carouselBgTitle);
-    border: 3px solid white;
+    border: 3px solid var(--apoioColor);
     padding: 16px;
     margin-bottom: 20px;
     width: 600px;
@@ -27,17 +27,6 @@
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
-}
-
-.navSpan {
-    font-weight: 900;
-    margin-left: 10px;
-}
-
-.buttonCarousel {
-    border: none !important;
-    padding-bottom: 40px;
-    background-color: var(--primary-color) !important;
 }
 
 .slides {

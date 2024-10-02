@@ -1,5 +1,5 @@
 .footerBg {
-    background-color: #fc3e00;
+    background-color: var(--primary-color);
     padding: 20px 0 40px 0;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .footerEmail {
-    color: #ffffff;
+    color: var(--apoioColor);
     font-weight: 600;
 }
 
@@ -19,8 +19,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fc3e00;
-    background-color: #ffffff;
+    color: var(--primary-color);
+    background-color: var(--apoioColor);
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+.footerCall:hover {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    background-color: var(--primary-color-hover);
     height: 30px;
     border-radius: 8px;
     font-weight: 900;
@@ -28,7 +40,7 @@
 
 .footerP {
     font-weight: 400;
-    color: white;
+    color: var(--apoioColor);
     text-align: center;
     margin-top: 30px;
 }
