@@ -110,6 +110,11 @@ p {
   font-weight: 900;
 }
 
+.formBold {
+  font-weight: 900;
+  margin-top: 16px;
+}
+
 @media screen and (max-width: 576px) {
   .title {
     text-align: center;

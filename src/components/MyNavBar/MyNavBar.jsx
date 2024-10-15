@@ -65,7 +65,6 @@ function MyNavBar() {
                                 Separated link
                             </NavDropdown.Item> */}
                         </NavDropdown>
-                        <Nav.Link className='bold' href="/">Electrical Services</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <div className=''>

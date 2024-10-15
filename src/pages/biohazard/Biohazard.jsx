@@ -7,6 +7,7 @@ import Process from "../../components/MyBiohazar/Process/Process";
 import Remediation from "../../components/MyBiohazar/Remediation/Remediation";
 import Services from "../../components/Servies/Services";
 import MyNavBar from "../../components/MyNavBar/MyNavBar";
+import ClientRegistration from "../../components/ClientRegistration/ClientRegistration";
 
 
 function Biohazard() {
@@ -18,7 +19,6 @@ function Biohazard() {
                 <h3 className="secaoTitle">Biohazard Cleanup</h3>
             </div>
             <Container>
-
                     <div className="mt-5">
                         <Hire />
                     </div>
@@ -43,7 +43,9 @@ function Biohazard() {
                         <Services />
                     </div>
 
-
+                    <div className="mt-5">
+                        <ClientRegistration />
+                    </div>
             </Container>
 
             <div className="mt-5">

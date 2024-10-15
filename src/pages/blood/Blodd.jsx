@@ -6,6 +6,7 @@ import HowDo from "../../components/MyBlood/HowDo";
 import Footer from "../../components/Footer/Footer";
 import Services from "../../components/Servies/Services";
 import Remediation from "../../components/MyBiohazar/Remediation/Remediation";
+import ClientRegistration from "../../components/ClientRegistration/ClientRegistration";
 
 
 function Blodd() {
@@ -34,10 +35,13 @@ function Blodd() {
                 <Services />
             </div>
 
-            <div className="mt-5 mb-5">
+            <div className="mt-5">
                 <Remediation />
             </div>
 
+            <div className="mt-5 mb-5">
+                <ClientRegistration />
+            </div>
 
             <Footer />
         </div>
